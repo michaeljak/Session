@@ -7,14 +7,17 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 	<title>Index</title>
 </head>
 
 <body>
 	<center>
 	<form method="post" action="LoginServlet">
-		<h3>Login</h3>
-		<table border=1>
+           
+            <h3>Login</h3>
+        
+		<table class="table table-hover" border=1>
 			<tr>
 				<td>Usuário:</td>
 				<td><input type="text" name="login" size="10" /></td>
@@ -23,8 +26,8 @@
 				<td>Senha:</td>
 				<td><input type="password" name="senha" size="10" /></td>
 			</tr>
-			<tr>
-				<td colspan="2"><input type="submit" value="Entrar" /></td>
+			<tr class="btn btn-success">
+				<td class="btn btn-default" colspan="2"><input type="submit" value="Entrar" /></td>
 			</tr>
 		</table>
 		<input type="hidden" name="acao" value="login" />
