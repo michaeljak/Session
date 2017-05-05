@@ -10,9 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        <title>JSP Page</title>
+        <title>Erro de Login</title>
     </head>
     <body>
-        <h1>Login Inválido!</h1>
+        <div class="container" >
+            <h1 c class="text-danger text-center">Login Inválido!</h1>
+           
+			
+        </div>
+               
     </body>
 </html>

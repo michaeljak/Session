@@ -12,28 +12,32 @@
 </head>
 
 <body>
+   
 	<center>
+             <dir class="container">
 	<form method="post" action="LoginServlet">
            
             <h3>Login</h3>
         
-		<table class="table table-hover" border=1>
-			<tr>
-				<td>Usuário:</td>
-				<td><input type="text" name="login" size="10" /></td>
+		<table class="table table-hover" border=05>
+                    <tr class="text-danger">
+                        <td><h4>Usuário:</h4></td>	
+                        <td><input type="text" name="login" size="33" /></td>
 			</tr>
-			<tr>
-				<td>Senha:</td>
-				<td><input type="password" name="senha" size="10" /></td>
+                        
+                        <tr class="text-danger">
+			<td><h4>Senha :</h4></td>	
+				<td><input type="password" name="senha" size="33" /></td>
 			</tr>
-			<tr class="btn btn-success">
-				<td class="btn btn-default" colspan="2"><input type="submit" value="Entrar" /></td>
+                        <tr class="btn btn-success text-center">
+				<td class="btn btn-default text-center"><input type="submit" value="Entrar" /></td>
 			</tr>
 		</table>
 		<input type="hidden" name="acao" value="login" />
 	</form>
-	</center>
+                 </dir>
 
+	</center>
 </body>
 
 </html>

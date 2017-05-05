@@ -18,12 +18,16 @@
 </head>
 
 <body>
+    <div class="text-center">
 
-	<h1> Bem vindo <% out.print(session.getAttribute("login")); %>! </h1>
+        <h1 class="text-info"> Bem vindo <% out.print(session.getAttribute("login")); %>! </h1>
+        <div>
+            <img src="img/ads.jpg"
+        </div>
+        <br>
+        <a class="btn btn-danger" href="LoginServlet?acao=logout">Logout</a>
 
-	<a href="LoginServlet?acao=logout">Logout</a>
-
-
+        </div>
 </body>
 
 </html>
