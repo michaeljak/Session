@@ -8,6 +8,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
          <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
 	<title>Index</title>
 </head>
 
@@ -21,12 +22,14 @@
         
 		<table class="table table-hover" border=05>
                     <tr class="text-danger">
-                        <td><h4>Usuário:</h4></td>	
+                        <td><h4>
+                                
+                                Usuário:    <span class="glyphicon glyphicon-user"></span></h4></td>	
                         <td><input type="text" name="login" size="33" /></td>
 			</tr>
                         
                         <tr class="text-danger">
-			<td><h4>Senha :</h4></td>	
+			<td><h4>Senha :  <span class="glyphicon glyphicon-lock"></span></h4></td>	
 				<td><input type="password" name="senha" size="33" /></td>
 			</tr>
                         <tr class="btn btn-success text-center">
@@ -38,6 +41,7 @@
                  </dir>
 
 	</center>
+       
 </body>
 
 </html>

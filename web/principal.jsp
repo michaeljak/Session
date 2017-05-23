@@ -13,21 +13,24 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>         
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Principal</title>
 </head>
 
 <body>
     <div class="text-center">
 
-        <h1 class="text-info"> Bem vindo <% out.print(session.getAttribute("login")); %>! </h1>
+        <h1 class="text-info"> <i class="fa fa-male"></i> Bem vindo <% out.print(session.getAttribute("login")); %>! </h1>
         <div>
             <img src="img/ads.jpg"
         </div>
         <br>
-        <a class="btn btn-danger" href="LoginServlet?acao=logout">Logout</a>
+        <a class="btn btn-danger" href="LoginServlet?acao=logout"><i class="fa fa-refresh"></i>  Logout</a>
 
         </div>
+        </div>
+       
 </body>
 
 </html>
